@@ -1,0 +1,109 @@
+.featured-course {
+    display: flex;
+    background-color: #8A2BE2;
+    /* Оранжевый цвет */
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    margin-top: 50px;
+}
+
+p {
+    font-weight: bold;
+}
+
+.featured-course-content {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    /* Белый цвет текста */
+}
+
+.featured-course-content h2 {
+    margin-top: 0;
+    font-size: 28px;
+    /* Увеличиваем размер заголовка */
+}
+
+.featured-course-content p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* Увеличиваем размер текста */
+}
+
+.featured-course-button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #ffe100;
+    /* Красный цвет */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.featured-course-button:hover {
+    background-color: #000000;
+    /* Оранжевый цвет при наведении */
+    color: #fff;
+    /* Белый цвет текста при наведении */
+}
+
+.featured-course-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-course-image img {
+    max-width: 80%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 0px;
+}
+.form-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.form-dialog label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-dialog input[type="text"],
+.form-dialog input[type="tel"],
+.form-dialog input[type="date"],
+.form-dialog input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-dialog input[type="submit"] {
+    background-color: #007bff;
+    /* Синий цвет */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-dialog input[type="submit"]:hover {
+    background-color: #0056b3;
+    /* Темно-синий цвет при наведении */
+}
